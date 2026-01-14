@@ -8,11 +8,11 @@ function ListObj() {
   ];
   return (
     <div>
-      {userInfo.map((user) => (
+      {userInfo.map(({ username, email, location }) => (
         <ul key={Math.random()}>
-          <li>{user.username}</li>
-          <li>{user.email}</li>
-          <li>{user.location}</li>
+          <li>{username}</li>
+          <li>{email}</li>
+          <li>{location}</li>
         </ul>
       ))}
     </div>
