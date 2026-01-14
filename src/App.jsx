@@ -1,11 +1,12 @@
 import Greet from "./components/Greet";
-import Productinfo from "./components/Productinfo";
+import List from "./components/List";
+import ListObj from "./components/ListObj";
 
 const App = () => {
   return (
     <div>
       <Greet />
-      <Productinfo />
+      <ListObj />
     </div>
   );
 };
