@@ -1,13 +1,15 @@
 import Greet from "./components/Greet";
-import List from "./components/List";
-import ListObj from "./components/ListObj";
+
+import Person from "./components/Person";
+import Product from "./components/Product";
 import UserList from "./components/UserList";
 
 const App = () => {
   return (
     <div>
       <Greet />
-      <UserList />
+      <Person name="Dinushika" age={22} />
+      <Product name="Iphone" price={300000000} />
     </div>
   );
 };
