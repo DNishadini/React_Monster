@@ -1,9 +1,11 @@
-import JSXRules from "./components/JSXRules";
+import Greet from "./components/Greet";
+import Productinfo from "./components/Productinfo";
 
 const App = () => {
   return (
     <div>
-      <JSXRules />;
+      <Greet />
+      <Productinfo />
     </div>
   );
 };
