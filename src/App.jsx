@@ -1,7 +1,8 @@
 import StyleCard from "./components/styles/StyleCard";
 import ProfileCard from "./components/styles/ProfileCard";
 import Icon from "./components/styles/Icon";
-import AddFriends from "./components/state/AddFriends";
+
+import Heros from "./components/state/Heros";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <StyleCard />
       <ProfileCard />
       <Icon />
-      <AddFriends />
+      <Heros />
     </div>
   );
 };
