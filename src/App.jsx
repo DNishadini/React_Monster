@@ -1,10 +1,9 @@
-import Counter from "./components/compo/Counter";
-import TodoList from "./components/compo/TodoList";
+import ShoppingList from "./components/compo/ShoppingList";
 
 const App = () => {
   return (
     <div>
-      <TodoList />
+      <ShoppingList />
     </div>
   );
 };
